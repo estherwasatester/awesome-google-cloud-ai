@@ -13,7 +13,7 @@ This repository contains an Agent Skill (`SKILL.md`) mapped against `maad_stack.
 
 1. **Install the Skill** into your agent or Gemini CLI workspace:
    ```bash
-   gemini-cli skill add https://github.com/estherwasatester/awesome-google-cloud-ai
+   gemini skills install https://github.com/estherwasatester/awesome-google-cloud-ai
    ```
 
 2. **Prompt the Agent**:
