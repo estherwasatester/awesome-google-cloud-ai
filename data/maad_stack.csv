@@ -1,0 +1,56 @@
+Product,Platform,Documentation,MCP Server (GitHub),Gemini CLI Extension,Agent Skills
+Firebase Studio,Web,https://firebase.google.com/docs/ai-assistance,,https://github.com/gemini-cli-extensions/firebase,
+Firebase Authentication,"Web, Mobile, Agent",https://firebase.google.com/docs/auth,https://github.com/firebase/firebase-tools,https://github.com/gemini-cli-extensions/firebase,https://github.com/firebase/agent-skills/tree/main/skills/firebase-auth-basics
+Cloud Identity Platform (GCIP),"Web, Mobile, Agent",https://cloud.google.com/identity-platform/docs,,,
+Cloud Firestore,"Web, Mobile, Agent",https://firebase.google.com/docs/firestore,https://github.com/firebase/firebase-tools,https://github.com/gemini-cli-extensions/firestore-native,https://github.com/firebase/agent-skills/tree/main/skills/firebase-firestore-standard
+Firebase Realtime Database,Mobile,https://firebase.google.com/docs/database,https://github.com/firebase/firebase-tools,https://github.com/gemini-cli-extensions/firebase,
+Cloud Storage for Firebase,"Web, Mobile, Agent",https://firebase.google.com/docs/storage,https://github.com/firebase/firebase-tools,https://github.com/gemini-cli-extensions/firebase,
+Cloud Functions for Firebase,"Web, Mobile, Agent",https://firebase.google.com/docs/functions,https://github.com/firebase/firebase-tools,https://github.com/gemini-cli-extensions/firebase,
+Firebase Hosting,Web,https://firebase.google.com/docs/hosting,https://github.com/firebase/firebase-tools,https://github.com/gemini-cli-extensions/firebase,https://github.com/firebase/agent-skills/tree/main/skills/firebase-hosting-basics
+Firebase App Hosting,Web,https://firebase.google.com/docs/app-hosting,https://github.com/firebase/firebase-tools,https://github.com/gemini-cli-extensions/firebase,https://github.com/firebase/agent-skills/tree/main/skills/firebase-app-hosting-basics
+Firebase Extensions,"Web, Mobile, Agent",https://firebase.google.com/docs/extensions,https://github.com/firebase/firebase-tools,,
+Firebase App Check,"Web, Mobile, Agent",https://firebase.google.com/docs/app-check,https://github.com/firebase/firebase-tools,,
+Firebase Data Connect,"Web, Mobile, Agent",https://firebase.google.com/docs/data-connect,https://github.com/firebase/firebase-tools,https://github.com/gemini-cli-extensions/firebase,https://github.com/firebase/agent-skills/tree/main/skills/firebase-data-connect-basics
+Genkit,"Web, Mobile, Agent",https://firebase.google.com/docs/genkit,https://github.com/firebase/firebase-tools,https://github.com/gemini-cli-extensions/genkit,"https://github.com/firebase/agent-skills/tree/main/skills/developing-genkit-dart, https://github.com/firebase/agent-skills/tree/main/skills/developing-genkit-js"
+Crashlytics,Mobile,https://firebase.google.com/docs/crashlytics,https://github.com/firebase/firebase-tools,https://github.com/gemini-cli-extensions/firebase,
+Firebase Performance Monitoring,Mobile,https://firebase.google.com/docs/perf-mon,https://github.com/firebase/firebase-tools,,
+Google Analytics for Firebase,"Web, Mobile",https://firebase.google.com/docs/analytics,https://github.com/firebase/firebase-tools,,
+Firebase App Distribution,Mobile,https://firebase.google.com/docs/app-distribution,https://github.com/firebase/firebase-tools,,
+Firebase Test Lab,Mobile,https://firebase.google.com/docs/test-lab,https://github.com/firebase/firebase-tools,,
+Firebase Cloud Messaging (FCM),"Web, Mobile",https://firebase.google.com/docs/cloud-messaging,https://github.com/googleapis/gcloud-mcp,,
+Firebase Remote Config,"Web, Mobile",https://firebase.google.com/docs/remote-config,https://github.com/firebase/firebase-tools,,
+Gemini Enterprise,Agent,https://cloud.google.com/gemini/docs/enterprise,https://github.com/googleapis/gcloud-mcp,,
+Gemini Code Assist,"Web, Mobile, Agent",https://cloud.google.com/gemini/docs/codeassist,https://github.com/googleapis/gcloud-mcp,,
+Gemini CLI,"Web, Mobile, Agent",https://geminicli.com,,,
+Cloud Workstations,"Web, Mobile, Agent",https://cloud.google.com/workstations/docs,https://github.com/googleapis/gcloud-mcp,,
+Android Studio,Mobile,https://developer.android.com/studio,,,
+Google Antigravity,"Web, Mobile, Agent",https://github.com/GoogleCloudPlatform/antigravity,,,
+Jules,"Web, Mobile, Agent",https://github.com/gemini-cli-extensions/jules,,https://github.com/gemini-cli-extensions/jules,
+Vertex AI Agent Builder,Agent,https://cloud.google.com/vertex-ai/generative-ai/docs/agent-builder/overview,https://github.com/googleapis/gcloud-mcp,,
+Vertex AI Studio,"Web, Agent",https://cloud.google.com/vertex-ai/docs/start/vertex-ai-studio,https://github.com/googleapis/gcloud-mcp,,
+Vertex Agent Engine,Agent,https://cloud.google.com/vertex-ai/docs,https://github.com/googleapis/gcloud-mcp,,
+Google AI Studio,"Web, Agent",https://ai.google.dev/aistudio,,,
+Cloud Run,"Web, Agent",https://cloud.google.com/run/docs,https://github.com/GoogleCloudPlatform/cloud-run-mcp,https://github.com/gemini-cli-extensions/gcloud,
+Flutter,"Web, Mobile",https://docs.flutter.dev,,https://github.com/gemini-cli-extensions/flutter,
+Firebase AI Logic,"Web, Mobile",https://firebase.google.com/docs/ai-logic,https://github.com/firebase/firebase-tools,https://github.com/gemini-cli-extensions/firebase,https://github.com/firebase/agent-skills/tree/main/skills/firebase-ai-logic-basics
+Secret Manager,"Web, Mobile, Agent",https://cloud.google.com/secret-manager/docs,https://github.com/googleapis/gcloud-mcp,,
+Cloud Build,"Web, Mobile, Agent",https://cloud.google.com/build/docs,https://github.com/googleapis/gcloud-mcp,,
+Model Armour,"Web, Mobile, Agent",https://cloud.google.com/security/products/model-armor,https://github.com/googleapis/gcloud-mcp,,
+Apigee,"Web, Mobile, Agent",https://cloud.google.com/apigee/docs,https://github.com/GoogleCloudPlatform/apigee-mcp-server,,
+Firebase BigQuery Integration,"Web, Mobile",https://firebase.google.com/docs/extensions/official/firestore-bigquery-export,https://github.com/firebase/firebase-tools,https://github.com/gemini-cli-extensions/bigquery-data-analytics,"https://github.com/firebase/agent-skills/tree/main/skills/firebase-firestore-enterprise-native-mode, https://github.com/firebase/agent-skills/tree/main/skills/firebase-firestore-standard"
+Firebase Operations Suite Integration,"Web, Mobile",https://firebase.google.com/docs/hosting/manage-hosting-resources,https://github.com/firebase/firebase-tools,,
+Application Design Center,"Web, Agent",https://cloud.google.com/application-design-center/docs,https://github.com/googleapis/gcloud-mcp,,
+Identity Aware Proxy (IAP),Web,https://cloud.google.com/iap/docs,https://github.com/googleapis/gcloud-mcp,,
+MCP,"Web, Mobile, Agent",https://modelcontextprotocol.io,,,
+FastMCP,Agent,https://github.com/jlowin/fastmcp,,,
+A2A,Agent,https://agent2agent.info,,,
+Spec-Driven Development (SDD),"Web, Mobile, Agent",,,https://github.com/gemini-cli-extensions/conductor,
+SAIF,"Web, Mobile, Agent",https://safety.google/intl/en_us/cybersecurity-advancements/saif/,,,
+Next.js,Web,https://nextjs.org/docs,,,
+Apigee Enterprise,"Web, Mobile, Agent",https://cloud.google.com/apigee/docs,https://github.com/googleapis/gcloud-mcp,,
+Gemini CLI Conductor,"Web, Mobile, Agent",https://github.com/gemini-cli-extensions/conductor,,https://github.com/gemini-cli-extensions/conductor,
+Flutter GenUI,"Web, Mobile",https://github.com/flutter/genui,,,
+ADK,Agent,https://github.com/google/agent-development-kit,,,https://github.com/google/adk-docs/tree/main/skills
+codmod,"Web, Mobile, Agent",https://docs.cloud.google.com/migration-center/docs/app-modernization-assessment,,,
+Firebase Platform,"Web, Mobile, Agent",https://firebase.google.com/docs,https://github.com/firebase/firebase-tools,https://github.com/gemini-cli-extensions/firebase,"https://github.com/firebase/agent-skills/tree/main/skills/firebase-basics, https://github.com/firebase/agent-skills/tree/main/skills/firebase-local-env-setup"
+Stitch,"Web, Mobile",https://stitch.withgoogle.com/,,https://github.com/gemini-cli-extensions/stitch,
