@@ -1,6 +1,12 @@
 # Awesome Google Cloud Agent Skill
 
-An opinionated Agent Skill that configures your development environment for Google Cloud, Firebase, ADK, and Vertex AI. Instead of reading through a static list of tools and extensions, you simply install this skill and ask it to set up what you need.
+An opinionated Agent Skill that configures your AI development tools to use Google Cloud, Firebase, ADK, and Vertex AI etc. Instead of searching the internet with Gemini and finding your favourite tools and extensions, or bloating your workspace with every tool under the sun, you simply install this skill and ask it to set up what you need.
+
+## Requirements
+
+- **Gemini CLI** or **Antigravity Agent**
+- **Python 3.x** (Required for the `setup_env.py` helper script)
+- **Git** (Required for fetching tools and extensions)
 
 ## How It Works
 
@@ -8,6 +14,8 @@ This repository contains an Agent Skill (`SKILL.md`) mapped against `maad_stack.
 - **MCP Servers** (Model Context Protocol)
 - **Gemini CLI Extensions**
 - **Agent Skills**
+
+Why isn't this using a database? Mostly because I'm lazy.
 
 ## Usage
 
@@ -18,6 +26,10 @@ This repository contains an Agent Skill (`SKILL.md`) mapped against `maad_stack.
 
 2. **Prompt the Agent**:
    _"Set up my environment for Firebase Authentication and Cloud Run."_
+
+   > [!WARNING]
+   > Ensure you understand that the agent will install tools, execute scripts, and modify your local workspace. The agent is instructed to ask for your confirmation before installing anything.
+
 3. The Agent will:
    - Query `data/maad_stack.csv` using the included `scripts/setup_env.py` helper script.
    - Dynamically identify the required MCPs, CLI extensions, and other Agent Skills.
@@ -25,7 +37,7 @@ This repository contains an Agent Skill (`SKILL.md`) mapped against `maad_stack.
 
 ## Available Tools & Resources
 
-Below is a complete index of the unique capabilities this agent skill can automatically install for you. Each layer provides different capabilities to the Gemini CLI and Antigravity IDE:
+Below an awesome inspired list of the unique capabilities this agent skill can automatically install for you, ready to use with the Gemini CLI and Antigravity Agent:
 
 ### MCP Servers
 MCP servers give your AI agents contextual access to tools and infrastructure data.
@@ -66,8 +78,8 @@ Agent skills are precise, step-by-step instructions that teach your AI *how* to 
 
 ## Contributing
 
-To add new references to the ecosystem:
-1. Update `maad_stack.csv` with the new Product details, MCP Server, Extension, or Agent Skill.
-2. Submit a Pull Request.
+Best if you fork this repo, or just create your own skill. But if you want to add new references to the ecosystem:
+1. Update `maad_stack.csv` with the new Product details, MCP Server, Extension, or Agent Skill. Ask Gemini to do this.
+2. Submit a Pull Request. Or just use the skill locally.
 
 That's it! The agent will immediately be able to leverage your additions when setting up environments.
