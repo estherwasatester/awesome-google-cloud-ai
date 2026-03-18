@@ -1,10 +1,10 @@
-# Awesome Google Cloud AI
+# Awesome Google Cloud Agent Skill
 
-A dynamic Agent Skill that configures your development environment for Google Cloud, Firebase, ADK, and Vertex AI. Instead of reading through a static list of tools and extensions, you simply install this skill and ask it to set up what you need.
+An opinionated Agent Skill that configures your development environment for Google Cloud, Firebase, ADK, and Vertex AI. Instead of reading through a static list of tools and extensions, you simply install this skill and ask it to set up what you need.
 
 ## How It Works
 
-This repository contains an intelligent Agent Skill (`SKILL.md`) mapped against `maad_stack.csv`. The CSV contains the latest references to:
+This repository contains an Agent Skill (`SKILL.md`) mapped against `maad_stack.csv`. The CSV contains the latest references to:
 - **MCP Servers** (Model Context Protocol)
 - **Gemini CLI Extensions**
 - **Agent Skills**
@@ -13,9 +13,8 @@ This repository contains an intelligent Agent Skill (`SKILL.md`) mapped against 
 
 1. **Install the Skill** into your agent or Gemini CLI workspace:
    ```bash
-   gemini-cli skill add https://github.com/GoogleCloudPlatform/awesome-google-cloud-ai
+   gemini-cli skill add https://github.com/estherwastester/awesome-google-cloud-ai
    ```
-   *(Note: replace the URL with the actual repository URL if different)*
 
 2. **Prompt the Agent**:
    _"Set up my environment for Firebase Authentication and Cloud Run."_
