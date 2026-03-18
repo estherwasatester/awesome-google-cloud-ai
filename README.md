@@ -5,7 +5,6 @@ An opinionated Agent Skill that configures your AI development tools to use Goog
 ## Requirements
 
 - **Gemini CLI** or **Antigravity Agent**
-- **Python 3.x** (Required for the `setup_env.py` helper script)
 - **Git** (Required for fetching tools and extensions)
 
 ## How It Works
@@ -31,9 +30,9 @@ Why isn't this using a database? Mostly because I'm lazy.
    > Ensure you understand that the agent will install tools, execute scripts, and modify your local workspace. The agent is instructed to ask for your confirmation before installing anything.
 
 3. The Agent will:
-   - Query `data/maad_stack.csv` using the included `scripts/setup_env.py` helper script.
+   - Use its native capabilities to parse `references/maad_stack.csv`.
    - Dynamically identify the required MCPs, CLI extensions, and other Agent Skills.
-   - Automatically fetch and install them for you!
+   - Automatically fetch and install them for you after confirmation!
 
 ## Available Tools & Resources
 
@@ -79,7 +78,7 @@ Agent skills are precise, step-by-step instructions that teach your AI *how* to 
 ## Contributing
 
 Best if you fork this repo, or just create your own skill. But if you want to add new references to the ecosystem:
-1. Update `maad_stack.csv` with the new Product details, MCP Server, Extension, or Agent Skill. Ask Gemini to do this.
+1. Update `references/maad_stack.csv` with the new Product details, MCP Server, Extension, or Agent Skill. Ask Gemini to do this.
 2. Submit a Pull Request. Or just use the skill locally.
 
 That's it! The agent will immediately be able to leverage your additions when setting up environments.
