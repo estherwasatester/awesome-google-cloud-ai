@@ -81,4 +81,4 @@ Best if you fork this repo, or just create your own skill. But if you want to ad
 1. Update `references/maad_stack.csv` with the new Product details, MCP Server, Extension, or Agent Skill. Ask Gemini to do this.
 2. Submit a Pull Request. Or just use the skill locally.
 
-That's it! The agent will immediately be able to leverage your additions when setting up environments.
+That's it! The agent will immediately be able to leverage your additions when setting up environments. Testing.
